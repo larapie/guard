@@ -23,5 +23,4 @@ class ThingIsNullGuard extends Guard
     {
         return $this->thing === null;
     }
-
 }
