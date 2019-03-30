@@ -2,7 +2,7 @@
 
 namespace Larapie\Guard\Tests\Classes;
 
-use Larapie\Guard\Abstracts\Guard;
+use Larapie\Guard\Guard;
 
 class ThingIsNullGuard extends Guard
 {

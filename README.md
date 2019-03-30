@@ -33,7 +33,7 @@ public function foo()
 }
 ```
 
-The goal of this package is to decouple these conditions and their exceptions in a guard object. This guard object can then be handled by the dispatcher.
+The goal of this package is to decouple these conditions and their exceptions in a guard object. This guard object can then be handled by the GuardHandler.
 By structuring this code in a guard object, we gain several advantages:
 
 - We're able to reuse the same conditions in the code elsewhere.
@@ -136,13 +136,7 @@ class UserInsufficientAgeGuard extends Guard
 
 ## Future
 
-- Allow the guard dispatcher to make it process OR statements.
-
-### Testing
-
-``` bash
-composer test
-```
+- Implement a feature that allows the guard handler to handle OR statements.
 
 ### Changelog
 
@@ -154,7 +148,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email anthony@officeline.be instead of using the issue tracker.
+If you discover any security related issues, please email anthony.vanc@gmail.com instead of using the issue tracker.
 
 ## Credits
 

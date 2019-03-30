@@ -1,6 +1,6 @@
 <?php
 
-namespace Larapie\Guard\Abstracts;
+namespace Larapie\Guard;
 
 use Larapie\Guard\Contracts\GuardContract;
 use Larapie\Guard\Exceptions\ResolveFailedException;

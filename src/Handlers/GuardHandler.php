@@ -1,10 +1,10 @@
 <?php
 
-namespace Larapie\Guard\Dispatcher;
+namespace Larapie\Guard\Handlers;
 
 use Larapie\Guard\Contracts\GuardContract;
 
-class GuardDispatcher
+class GuardHandler
 {
     /**
      * @var GuardContract[]
@@ -20,7 +20,7 @@ class GuardDispatcher
         $this->guards = $guards;
     }
 
-    public function dispatch()
+    public function handle()
     {
         foreach ($this->guards as $guard) {
             if ($guard->condition()) {
