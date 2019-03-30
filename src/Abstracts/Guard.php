@@ -36,8 +36,8 @@ abstract class Guard implements GuardContract
         if (is_string($exception) || ! ($exception instanceof \Throwable)) {
             try {
                 $exception = new $exception;
-            } catch (\Exception $e) {
-                throw new ResolveFailedException('Could not resolve the string to an exception. It probably requires additional arguments. Try to pass it as an object');
+            } catch (\ArgumentCountError $e) {
+                throw new ResolveFailedException();
             }
         }
 
