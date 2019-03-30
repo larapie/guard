@@ -2,13 +2,13 @@
 
 namespace Larapie\Guard\Tests;
 
-use Larapie\Guard\Exceptions\ResolveFailedException;
-use Larapie\Guard\Tests\Classes\InvalidNumberIsBiggerThanGuard;
 use PHPUnit\Framework\TestCase;
 use Larapie\Guard\Tests\Classes\ThingIsNullGuard;
+use Larapie\Guard\Exceptions\ResolveFailedException;
 use Larapie\Guard\Tests\Classes\BiggerThanException;
 use Larapie\Guard\Tests\Classes\ThingIsNullException;
 use Larapie\Guard\Tests\Classes\NumberIsBiggerThanGuard;
+use Larapie\Guard\Tests\Classes\InvalidNumberIsBiggerThanGuard;
 
 class GuardsTest extends TestCase
 {
