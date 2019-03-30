@@ -1,0 +1,50 @@
+{
+    "name": "larapie/guard",
+    "description": "Guard objects for conditional exception throwing.",
+    "keywords": [
+        "larapie",
+        "guard",
+        "laravel",
+        "php",
+        "exceptions",
+        "throwing"
+    ],
+    "homepage": "https://github.com/larapie/guard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthony Vancauwenberghe",
+            "email": "anthony.vanc@gmail.com",
+            "homepage": "https://github.com/larapie",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larapie\\Guard\\": "src"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Larapie\\Guard\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
