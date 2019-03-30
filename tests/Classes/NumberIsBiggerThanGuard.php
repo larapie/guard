@@ -23,6 +23,6 @@ class NumberIsBiggerThanGuard extends Guard
 
     public function exception(): \Throwable
     {
-        return new BiggerThanException($this->number,$this->biggerThanNumber);
+        return new BiggerThanException($this->number, $this->biggerThanNumber);
     }
 }
