@@ -16,7 +16,7 @@ composer require larapie/guard
 
 ## Have you ever…
 
-… encountered situations where you had countless if statements that needed to throw specific errors when the condtion was met?
+… encountered a situation where you had countless if statements that needed to throw specific errors when conditions were met?
 
 Here's an example:
 
@@ -34,7 +34,7 @@ public function foo()
 ```
 
 The goal of this package is to decouple these conditions and their exceptions in a guard object. This guard object can then be handled by the dispatcher.
-By structuring this into an object, we gain several advantages:
+By structuring this code in a guard object, we gain several advantages:
 
 - We're able to reuse the same conditions in the code elsewhere.
 - The code becomes a lot easier to read.
