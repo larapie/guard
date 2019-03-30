@@ -1,6 +1,9 @@
 # Guard
-
+[![Latest Stable Version](https://poser.pugx.org/larapie/guard/v/stable)](https://packagist.org/packages/larapie/guard)
+[![Total Downloads](https://poser.pugx.org/larapie/guard/downloads)](https://packagist.org/packages/larapie/guard)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/larapie/guard/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/larapie/guard/?branch=master)
 [![Build Status](https://travis-ci.org/larapie/guard.svg?branch=master)](https://travis-ci.org/larapie/guard)
+[![Code Coverage](https://scrutinizer-ci.com/g/larapie/guard/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/larapie/guard/?branch=master)
 [![StyleCI](https://github.styleci.io/repos/178550231/shield?branch=master)](https://github.styleci.io/repos/178550231)
 
 ## Installation
